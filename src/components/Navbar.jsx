@@ -36,7 +36,7 @@ const Navbar = () => {
                 </div>
                 <div className='space-x-5 hidden md:flex items-center'>
                     <a href="" className='hideen lg-flex items-center hover:text-secondary '><GrHome className='mr-2' /></a>
-                    <button class="bg-transparent text-black border border-black py-2 px-4 rounded-lg transition duration-300 ease-in-out hover:bg-white  hover:bg-indigo-600">Sign In</button>
+                    <button class="bg-transparent text-black border border-black py-2 px-4 rounded-lg transition duration-300 ease-in-out hover:bg-white  hover:bg-indigo-600">SignIn</button>
                     <button className='bg-secondary py-2 px-4 transition-all duration-300 rounded hover:text-white hover:bg-indigo-600'>Sign Up</button>
                 </div>
                 <div className='md:hidden'>
