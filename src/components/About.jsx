@@ -47,10 +47,10 @@ Get Started
         </div>
 
         <motion.div
-          variants={fadeIn("right", 0.9)} // Use the fadeIn function here
+          variants={fadeIn("right", 0.2)} // Use the fadeIn function here
           initial="hidden"
         whileInView="show" // Use "animate" instead of "whileInView"
-        viewport={{once:false,amount:0.7}}
+        viewport={{once:false,amount:0.2}}
        className='md:w-2/5'>
             <h2 className='md:text-5xl text-3xl font-bold text-primary mb-5 leading-normal'>
                 You can Practice at any <span className='text-secondary'> time for you</span>
